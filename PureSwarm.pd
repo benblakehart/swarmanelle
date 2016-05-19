@@ -20,19 +20,19 @@
 #X obj 40 388 *~ 0.125;
 #X obj 40 519 dac~;
 #X obj 45 95 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 8400 1;
+-1 -1 0 1;
 #X obj 82 129 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
 -1 -1 0 1;
 #X obj 294 102 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 8100 1;
+-1 -1 0 1;
 #X obj 641 394 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 6900 1;
+-1 -1 0 1;
 #X obj 261 421 hsl 128 15 48 123 0 0 empty empty empty -2 -8 0 10 -262144
 -1 -1 0 1;
 #X obj 458 490 hsl 128 15 1 20 1 0 empty empty empty -2 -8 0 10 -262144
 -1 -1 0 1;
 #X obj 324 138 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 100 1;
+-1 -1 0 1;
 #X text 42 71 pitch;
 #X text 78 110 finepitch;
 #X text 309 80 width;
@@ -314,6 +314,7 @@
 #X restore 357 341 pd voice;
 #X obj 29 10 loadbang;
 #X msg 28 38 440;
+#X text 493 26 this is a test;
 #X connect 0 0 18 0;
 #X connect 0 0 18 1;
 #X connect 1 0 3 0;

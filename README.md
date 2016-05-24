@@ -19,3 +19,7 @@ V0.1
 	+ Envelope adjustments
 	+ Oscillator toggling
 	+ Other fun stuff! 
+
+Credits: 
+https://gitlab.com/johannesg/PureSwarm - for inspiration
+https://www.youtube.com/watch?v=jpWEBcev_Kg - for note-off issue with monophonic synth

@@ -1,4 +1,4 @@
-#N canvas 0 50 1438 877 10;
+#N canvas -8 -8 1440 877 10;
 #X obj 40 749 *~;
 #X floatatom 626 402 15 0 0 0 - - -, f 15;
 #X floatatom 102 396 10 0 0 0 Span_Factor - -, f 10;
@@ -340,15 +340,15 @@ Span \; screenLine3 3: Filter Cutoff \; screenLine4 4: Note Detune
 #X text 133 112 Fine Span;
 #X text 990 266 Note Detune;
 #X text 55 530 Filter;
-#X text 744 164 Selects note off midi signals and compares them to
+#X text 774 218 Selects note off midi signals and compares them to
 midi on signals in order to deterimine whether to send off signal for
 that note;
-#X text 1100 269 Allows for local detuning of notes. Press a note \,
+#X text 856 681 Allows for local detuning of notes. Press a note \,
 detune \, then press a new note to reset the detune to 0 Hz \, allowing
 you to retune the new note without losing true tuning.;
 #X text 316 139 Increases oscillator distance from main frequency \,
 and each other.;
-#X text 406 317 Sets distance of oscillators to each other.;
+#X text 324 332 Sets distance of oscillators to each other.;
 #X text 161 540 Simple BPF;
 #X connect 0 0 34 0;
 #X connect 0 0 35 0;
